@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crucigrama Interactivo</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Vincula tu archivo CSS -->
+</head>
+<body>
+    <div class="container">
+        <h1>Crucigrama Interactivo</h1>
+
+        <!-- Campo para introducir el nombre del jugador -->
+        <label for="playerName">Introduce tu nombre:</label>
+        <input type="text" id="playerName" placeholder="Tu nombre aquí" />
+
+        <!-- Botón para jugar -->
+        <button class="btn" id="btnPlay">Jugar</button>
+        <br/><br/>  
+
+        <!-- Área donde se generará el crucigrama -->
+        <div class="center crossword" id="crossword"></div><br/>
+
+        <!-- Sección para introducir palabras y pistas -->
+        <h2>Palabras y Pistas</h2>
+
+        <div class="line">
+            <input class="word" type="text" value="Tucan" />
+            <input class="clue" type="text" value="A tropical bird with a large beak" />
+        </div>
+        <div class="line">
+            <input class="word" type="text" value="Dingo" />
+            <input class="clue" type="text" value="This free-ranging dog is at home in the outback." />
+        </div>
+        <div class="line">
+            <input class="word" type="text" value="Dolphin" />
+            <input class="clue" type="text" value="A friendly finned non-fish" />
+        </div>
+        <div class="line">
+            <input class="word" type="text" value="Pig" />
+            <input class="clue" type="text" value="Bosses of the farm in Orwell's world" />
+        </div>
+        <div class="line">
+            <input class="word" type="text" value="Kangaroo" />
+            <input class="clue" type="text" value="Boxing champions of the outback" />
+        </div>
+        <div class="line">
+            <input class="word" type="text" value="Octopus" />
+            <input class="clue" type="text" value="Eight legged sea creature" />
+        </div>
+        <div class="line">
+            <input class="word" type="text" value="Hamster" />
+            <input class="clue" type="text" value="Furry rodent whose teeth never stop growing" />
+        </div>
+        <div class="line">
+            <input class="word" type="text" value="Alligator" />
+            <input class="clue" type="text" value="Dating back further than the T-rex, this reptile is a modern day dinosaur" />
+        </div>
+        <div class="line">
+            <input class="word" type="text" value="Ostrich" />
+            <input class="clue" type="text" value="Flightless bird not known for its people skills" />
+        </div>
+        <div class="line">
+            <input class="word" type="text" value="Koala" />
+            <input class="clue" type="text" value="Friendly version of the infamous Australian tourist terrorizing tree-dwellers" />
+        </div>
+        <div class="line">
+            <input class="word" type="text" value="Mouse" />
+            <input class="clue" type="text" value="This poor animal is often the victim of feline aggression and human experimentation" />
+        </div>
+        <div class="line">
+            <input class="word" type="text" value="Antelope" />
+            <input class="clue" type="text" value="The victim of every lion documentary clip you've ever seen." />
+        </div>
+
+    </div>
+
+    <script src="script.js"></script> <!-- Vincula el archivo JavaScript -->
+</body>
+</html>
